@@ -1,4 +1,4 @@
 FROM nginx
 MAINTAINER shashikant0811@gmail.com
-WORKDIR /usr/share/nginx/html/
+WORKDIR /var/share/nginx/html/
 COPY shasindex.html .
